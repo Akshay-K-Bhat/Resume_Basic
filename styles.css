@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   letter-spacing: 1px;
+  color: #40514E;
 }
 
 h1 {
@@ -18,15 +19,27 @@ h2 {
   font-weight: normal;
   font-size: 2.5rem;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 .profile_pic {
   width: 15%;
 }
 
+p {
+  line-height: 2;
+}
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  margin: 100px auto;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+
 }
 
 .top_container {
@@ -36,7 +49,7 @@ h3 {
 }
 
 .middle_container {
-
+  margin: 100px  0;
 }
 
 .bottom_container {
@@ -52,6 +65,11 @@ h3 {
 .pro {
   font-weight: bold;
   font-family: sans-serif;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .top_cloud {
@@ -77,15 +95,20 @@ h3 {
 }
 
 .skill-img {
-  width: 25%;
-  float: left;
+  width: 35%;
   margin-right: 30px;
+  float: left;
 }
 
 .skill-img2 {
-  width: 25%;
+  width: 35%;
   float: right;
   margin-left:20px;
+}
+
+.skill-text {
+  width: 100%;
+  margin-top: -80px;
 }
 
 .btn {
@@ -95,12 +118,12 @@ h3 {
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -112,9 +135,11 @@ h3 {
 
 .bottom_container{
   height: 80px;
+  width: 96%;
   margin-top: 40px;
   background-color: #66BFBF;
   padding: 30px;
+  position: absolute;
 
 }
 
@@ -125,5 +150,10 @@ font-family:serif;
 text-decoration: none;
 font-weight: 500;
 font-size: 1.3rem;
-margin: 1rem;
+margin: 1rem  1rem;
+}
+
+
+a:hover{
+   color: #EAF6F6;
 }
